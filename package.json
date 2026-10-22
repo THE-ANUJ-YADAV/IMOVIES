@@ -1,0 +1,22 @@
+{
+  "name": "imovies-workspace",
+  "version": "1.0.0",
+  "description": "IMovies — Complete Full-Stack Movie Ticket Booking Platform",
+  "scripts": {
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "seed": "npm --prefix server run seed",
+    "test:server": "npm --prefix server test",
+    "build:client": "npm --prefix client run build",
+    "start:server": "npm --prefix server start"
+  },
+  "keywords": [
+    "imovies",
+    "mern",
+    "cinema-booking",
+    "realtime-seating",
+    "razorpay"
+  ],
+  "author": "Antigravity Engineering",
+  "license": "MIT"
+}
